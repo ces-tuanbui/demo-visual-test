@@ -1,0 +1,215 @@
+{
+  "config": {
+    "configFile": "/home/ces-user/workspace/demo-visual-test/node-server/playwright.config.ts",
+    "rootDir": "/home/ces-user/workspace/demo-visual-test/node-server/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/ces-user/workspace/demo-visual-test/node-server/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/ces-user/workspace/demo-visual-test/node-server/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.39.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "https___www_veracode_com_.spec.ts",
+      "file": "https___www_veracode_com_.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot for https://www.veracode.com/",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6363,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-28T07:02:31.164Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d267743820ef9c5d6e9f-6a23858d565adf774f22",
+          "file": "https___www_veracode_com_.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "https___www_veracode_com_blog_2007_07_backdoor_detection_in_the_news.spec.ts",
+      "file": "https___www_veracode_com_blog_2007_07_backdoor_detection_in_the_news.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot for https://www.veracode.com/blog/2007/07/backdoor-detection-in-the-news",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 6213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-28T07:02:31.170Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0e96015029b7f53521c-c4cf2c20c111058a50f8",
+          "file": "https___www_veracode_com_blog_2007_07_backdoor_detection_in_the_news.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "https___www_veracode_com_blog_2008_04_waf_better_than_code_review_think_again.spec.ts",
+      "file": "https___www_veracode_com_blog_2008_04_waf_better_than_code_review_think_again.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot for https://www.veracode.com/blog/2008/04/waf-better-than-code-review-think-again",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6065,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-28T07:02:31.182Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "54db33677dda14c24155-2aa6aa9ded6c10b05f02",
+          "file": "https___www_veracode_com_blog_2008_04_waf_better_than_code_review_think_again.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "https___www_veracode_com_blog_2014_09_a_guide_to_static_testing_of_web_apps_no_running_required.spec.ts",
+      "file": "https___www_veracode_com_blog_2014_09_a_guide_to_static_testing_of_web_apps_no_running_required.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Screenshot for https://www.veracode.com/blog/2014/09/a-guide-to-static-testing-of-web-apps-no-running-required",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 6133,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-28T07:02:31.150Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1080222dab714a2ab5fe-812da0d295099bd9d54a",
+          "file": "https___www_veracode_com_blog_2014_09_a_guide_to_static_testing_of_web_apps_no_running_required.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-11-28T07:02:30.859Z",
+    "duration": 6878.534
+  }
+}
